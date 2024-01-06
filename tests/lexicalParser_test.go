@@ -180,20 +180,4 @@ func TestLexer(t *testing.T) {
 			}
 		})
 	}
-
-	//parsers.Lexer(fileHandlers.ReadFile("test-data/step3/valid.json"))
-	//parsers.Lexer(fileHandlers.ReadFile("test-data/step1/valid.json"))
-	//parsers.Lexer(fh.ReadFile("test-data/step4/valid2.json"))
-	//parsers.Lexer(fileHandlers.ReadFile("test-data/step2/invalid2.json"))
-	//parsers.Lexer(fh.ReadFile("test-data/step3/invalid.json"))
-	//parsers.Lexer(fh.ReadFile("test-data/step4/invalid.json"))
-	//parsers.Lexer(fh.ReadFile("test-data/custom/string.json"))
-	//parsers.Lexer(fh.ReadFile("test-data/custom/number.json"))
-	//parsers.Lexer(fh.ReadFile("test-data/custom/bool.json"))
-	//parsers.Lexer(fh.ReadFile("test-data/custom/invalidBool.json"))
-	//parsers.Lexer(fh.ReadFile("test-data/custom/char.json"))
-
 }
-
-//expected [{BraceOpen {} {String "key1"} {Colon :} {Boolean true} {Comma ,} {String "key2"} {Colon :} {Boolean false} {Comma ,} {String "key3"} {Colon :} {Null null} {Comma ,} {String "key4"} {Colon :} {String "value"} {Comma ,} {String "key5"} {Colon :} {Number 101} {BraceClose }}]
-//got      [{BraceOpen {} {String "key1"} {Colon :} {Boolean true} {Comma ,} {String "key2"} {Colon :} {Boolean false} {Comma ,} {String "key3"} {Colon :} {Null null} {Comma ,} {String "key4"} {Colon :} {String "value"} {Comma ,} {String "key5"} {Colon :} {Number 101} {BraceClose }}]
